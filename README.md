@@ -30,7 +30,7 @@ The following steps describe how to set up instances of an RAID-PIR vendor, mirr
 Before you start, make sure you checked out the most recent version from GitHub.
 
 #### 1.1 Fast XOR
-To have fast XOR operations, you'll need to build some C code. To do this you have to run `python setup.py build`.
+To have fast XOR operations, you'll need to build some C code. To do this you have to run `python3 setup.py build`.
 
 If you cannot get this to work, you can edit `raidpir_mirror.py` and change `import fastsimplexordatastore` to `import simplexordatastore as fastsimplexordatastore`.
 
